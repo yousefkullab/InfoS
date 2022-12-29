@@ -1,0 +1,30 @@
+{% extends 'cipher/layout.html' %}
+
+{% block title %} Home {% endblock %}
+
+{% block body %}
+
+<h1>Information Security Project</h1>
+{% load static %}
+
+<div style=" display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+padding-top: 50px;">
+    <img src="{% static 'cipher/img/key.jpg' %}" alt="key cipher" style="width: 800px; height:400px;">
+</div>
+<br>
+
+<div class="links">
+    <a href="{% url 'cipher:hill_encryption' %}" class="link">Hill Cipher Encryption</a>
+    <a href="{% url 'cipher:hill_decryption' %}" class="link">Hill Cipher Decryption</a>
+</div>
+<div class="links">
+    <a href="{% url 'cipher:blowfish_encryption' %}" class="link">Blowfish Encryption</a>
+    <a href="{% url 'cipher:blowfish_decryption' %}" class="link">Blowfish Decryption</a>
+</div>
+
+
+
+{% endblock %}

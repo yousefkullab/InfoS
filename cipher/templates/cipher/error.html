@@ -1,0 +1,20 @@
+{% extends 'cipher/layout.html' %}
+
+{% block title %} Error {% endblock %}
+
+
+{% block body %}
+
+
+<h1>Error</h1>
+<div class="home">
+    <a href="{% url 'cipher:blowfish_encryption' %}" class="home-link">Back to Blowfish Alogrihtm</a>
+</div>
+
+<div class="error">
+    <p>Please Just Enter Numbers</p>
+</div>
+
+   
+
+{% endblock %}

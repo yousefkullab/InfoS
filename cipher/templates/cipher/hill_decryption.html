@@ -1,0 +1,45 @@
+{% extends 'cipher/layout.html' %}
+
+{% block title %} Decryption {% endblock %}
+
+
+{% block body %}
+
+<h1>Hill Cipher Decryption</h1>
+<div class="home">
+    <a href="{% url 'cipher:hill_encryption' %}" class="home-link">Hill Cipher Encryption</a>
+</div>
+
+<div class="home" style="margin-top: 15px;">
+    <a href="{% url 'cipher:index' %}" class="home-link">Back to home page</a>
+</div>
+
+    <div class="flex-container">
+        <div>
+            <form action="{% url 'cipher:hill_decryption' %}" method="POST"> 
+                {% csrf_token %}
+                <div class="ciphertext">
+                    <label>Ciphertext</label>
+                    <textarea rows=4 cols=30 name="text">{{ d_text }}</textarea>
+                </div>
+                <br>
+                <div class="palintext">
+                    <label>Plaintext </label>
+                    <p class="e-text">{{ text }}</p>
+                </div>
+                <br>
+                <div class="alogrihtms">
+                    <input type="submit" class="btn" value="Decrypt">
+                </div>        
+            </form>
+        </div>
+
+        <div class="encryption-img">
+            {% load static %}
+            <img src="{% static 'cipher/img/encryption.jpg' %}" alt="encryption">
+        </div>
+
+    </div>
+    
+
+{% endblock %}

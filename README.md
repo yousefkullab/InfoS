@@ -16,9 +16,9 @@ Network application for testing block ciphers in different modes of operation
   - [Code Runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner)
   - [Python Extension Pack](https://marketplace.visualstudio.com/items?itemName=donjayamanne.python-extension-pack)
 - [Install python](https://www.python.org/downloads/)
-- Install pip use this command in teminal **py -m ensurepip --upgrade** and than run this command   **py get-pip.py**
-- Install django use this command **pip install django**
-- Finally run this command is your termianl **python manage.py runserver**
+- Install pip use this command in teminal `py -m ensurepip --upgrade` and than run this command `py get-pip.py`
+- Install django use this command `pip install django`
+- Finally run this command is your termianl `python manage.py runserver`
 
 ## Preparation Team Members
 

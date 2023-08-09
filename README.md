@@ -8,7 +8,7 @@ CipherNet is a network application designed to provide a platform for testing bl
 - Support for block ciphers and various modes of operation, including CBC.
 - User-friendly web interface for easy interaction.
 - Educational tool for understanding and experimenting with encryption algorithms.
-- [Video demonstration available on YouTube for project understanding](https://www.youtube.com/watch?v=XICnd5_KsSs)
+- [Video demonstration on YouTube ](https://www.youtube.com/watch?v=XICnd5_KsSs)
 - [PDF Documentation](https://drive.google.com/file/d/1QNxj4YJL1KWlGXyoITeyXyYkEY87iCXV/view?usp=sharing)
 
 

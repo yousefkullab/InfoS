@@ -1,13 +1,17 @@
-# Website For Encrypt & Decrypt Text
+# Overview
 
-Network application for testing block ciphers in different modes of operation
+CipherNet is a network application designed to provide a platform for testing block ciphers in different modes of operation. The application enables users to encrypt and decrypt text using various cipher algorithms, including the **Hill cipher** and the **Blowfish** algorithm with the **CBC** (Cipher Block Chaining) mode.
 
+## Features
+
+- Encryption and decryption of text using different cipher algorithms.
+- Support for block ciphers and various modes of operation, including CBC.
+- User-friendly web interface for easy interaction.
+- Educational tool for understanding and experimenting with encryption algorithms.
+- Video demonstration available on YouTube for project understanding.
 ### [Project vedio in YouTube](https://www.youtube.com/watch?v=XICnd5_KsSs)
-
-## Webiste to test cipher algorithms like
-
-- Hill cipher
-- Blowfish algorithm with cbc mode
+- PDF Documentation
+### [Documentation](https://www.youtube.com/watch?v=XICnd5_KsSs)
 
 ## Requirements to run django website ( Network-Application )
 
